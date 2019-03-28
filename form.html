@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>form</title>
+<style media="screen">
+.background {
+  margin: 10px 300px;
+  background-color: lightblue;
+}
+.button {
+        float:right;
+        border: none;
+        padding: 5px 20px ;
+        text-align: center;
+        font-size: 16px;
+    }
+</style>
+  </head>
+  <body>
+
+
+  <h1 align="center"><b><u>Uki Student</u></b></h1>
+
+   <input type="button" class="button" onclick="location.href='index.html';" value="Home" />
+<br><br><br>
+<div>
+    <form  method="post/get"  class="background">
+    <fieldset bgcolor="lightblue">
+      <legend align="center">UKI Life</legend>
+
+      First name: &ensp; <input type="text" name="fn" >  <br><br>
+      Last name: &ensp;  <input type="text" name="ln" > <br><br>
+      Reg no: &emsp;&emsp; <input type="text" name="rg" ><br><br>
+      Date of birth: <input type="date" name="birthday" > <br><br>
+      Gender:
+        <input type="radio" name="gender" value="Male">Male
+        <input type="radio" name="gender" value="female">Female
+        <br><br>
+        Favourite Subject:
+        <br>
+        <input type="checkbox" name="subject" value="English">English
+        <input type="checkbox" name="subject" value="Personal Coaching">Personal Coaching
+        <input type="checkbox" name="subject" value="Web Development">Web Development
+        <input type="checkbox" name="subject" value="Programming">Programming
+        <br><br>
+        Feedback: <br> &emsp;&emsp;&emsp;&emsp; <textarea name="name" rows="10" cols="40"></textarea>
+        <br>
+        <p align="center">
+        <input type="reset" name="reset" value="Reset">
+        <input type="submit" name="submit" value="Submit">
+
+      </fieldset>
+    </form>
+</div>
+
+  </body>
+</html>
